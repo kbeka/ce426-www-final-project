@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BookWay | Harry Potter and the Prisoner of Azkaban</title>
+        <meta charset ="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <LINK rel="stylesheet" href="book_style.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="header_style.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <img src="book.png" class="book-image" width="40">
+            <a href="home_page.html" class="logo">Bookway</a>
+            <div class="header-right">
+                <a class="active" href="home_page.html">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Genres
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="genre">
+                        <a href="#adventure">Adventure</a>
+                        <a href="#classics">Classics</a>
+                        <a href="#comics">Comics</a>
+                        <a href="#crime">Crime</a>
+                        <a href="#fantasy">Fantasy</a>
+                        <a href="#fiction">Fiction</a>
+                        <a href="#manga">Manga</a>
+                        <a href="#mystery">Mystery</a>
+                        <a href="#thriller">Thriller</a>
+                        <a href="#ya">Young Adult</a>
+                        <a href="genre.html">More...</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Explore
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="genres.html">By Genre</a>
+                        <a href="authors.html">By Author</a>
+                        <a href="recs.html">Editors' Picks</a>
+                        <a href="new.html">New Releases</a>
+                    </div>
+                </div>
+                <a href="about_us.html">About Us</a>
+                <div class="search-container" ondrag="highlight">
+                    <form method="post" target="_blank">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn" id="profilepic"><img src="def.jpg" id="profilepic">kbeka
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="profile.html">Profile</a>
+                        <a href="tbr.html">My Books</a>
+                        <a href="login.html">Sign Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page_body">
+            <div class="body_left">
+                <div class="book">
+                    <div class="book_photo">
+                        <img src="harry_potter_3.jpg" style="width: 200px">
+                        <center><button class="add_list">Add to my list</button></center>
+                        <br>
+                        <center>
+                            <label for="rate">Rate this book:<br></label>
+                            <input name="rate_value" id="rate" maxlength="4" size="1"> / 5 <i style="color:#ffcc00 " class="fas fa-star"></i>
+
+                            <br><button class="submit">Submit</button>
+                        </center>
+                    </div>
+                    <div class="book_info">
+                        <h2>Harry Potter and the Prisoner of Azkaban</h2>
+                        <h3>by J.K.Rowling</h3>
+                        <div class="details">
+                            <p>Published: May 1, 2004</p>
+                            <p>Page count: 435</p>
+                            <p>Rating: 4.57 / 5 <i style="color:#ffcc00 " class="fas fa-star"></i></p>
+                        </div>
+                        <br>
+                        <p>For twelve long years, the dread fortress of Azkaban held an infamous prisoner named Sirius Black. Convicted of killing thirteen people with a single curse, he was said to be the heir apparent to the Dark Lord, Voldemort.</p>
+                        <p>Now he has escaped, leaving only two clues as to where he might be headed: Harry Potter's defeat of You-Know-Who was Black's downfall as well. And the Azkaban guards heard Black muttering in his sleep, "He's at Hogwarts ... he's at Hogwarts.</p>
+                        <p>"Harry Potter isn't safe, not even within the walls of his magical school, surrounded by his friends. Because on top of it all, there may well be a traitor in their midst. </p>
+                    </div>
+                </div>
+                <br>
+                <h3>Reviews</h3>
+                <hr>
+                <div class="Reviews">
+                    <form>
+                        <textarea placeholder="Write your review..."></textarea>
+                    </form>
+                    <button>Submit</button>
+                    <br><br><br>
+                    <div class="row">
+                    <div class="column">
+                      <div class="card">
+                        <div class="container">
+                          <ul>
+                            <li class="serif"><b>Nick Evans</b> rated with 4 / 5 <i style="color:#ffcc00 " class="fas fa-star"></i><br>― "I am both pleasantly surprised and mad that I ended up enjoying this audiobook and getting invested in Sirius Black. The story really improved when we discovered more about the background story of events that happened before Harry's generation. I enjoyed learning more about the adult characters and being surprised at the plot developments."</li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                      <div class="card">
+                        <div class="container">
+                          <ul>
+                            <li class="serif"><b>Alice Maxwell</b> rated with 4.6 / 5 <i style="color:#ffcc00 " class="fas fa-star"></i><br>― "(A) 85% | Extraordinary
+Notes: Separating itself from its forebears, it's a story of greater complexity, darker tones, and a vastly expanded mythology."</li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="body_right">
+                <center><h2>Other books by J.K.Rowling</h2></center>
+                <div class="suggested">
+                    <button><img src="harry_potter_1.jpg"></button>
+                    <button><img src="harry_potter_2.jpg"></button>
+                    <button><img src="harry_potter_4.jpg"></button>
+                    <button><img src="harry_potter_5.jpg"></button>
+                    <button><img src="harry_potter_6.jpg"></button>
+                    <button><img src="harry_potter_7.jpg"></button>
+                    <button><img src="harry_potter_8.jpg"></button>
+                </div>
+            </div>

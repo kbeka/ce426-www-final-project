@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ <title>BookWay | Profile</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+ <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="header_style.css">
+ <link rel="stylesheet" href="profile.css">
+ <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+
+  <div class="header">
+      <img src="book.png" class="book-image" width="40">
+      <a href="home_page.html" class="logo">Bookway</a>
+      <div class="header-right">
+          <a class="active" href="home_page.html">Home</a>
+          <div class="dropdown">
+              <button class="dropbtn">Genres
+                  <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="genre">
+                  <a href="#adventure">Adventure</a>
+                  <a href="#classics">Classics</a>
+                  <a href="#comics">Comics</a>
+                  <a href="#crime">Crime</a>
+                  <a href="#fantasy">Fantasy</a>
+                  <a href="#fiction">Fiction</a>
+                  <a href="#manga">Manga</a>
+                  <a href="#mystery">Mystery</a>
+                  <a href="#thriller">Thriller</a>
+                  <a href="#ya">Young Adult</a>
+                  <a href="genre.html">More...</a>
+              </div>
+          </div>
+          <div class="dropdown">
+              <button class="dropbtn">Explore
+                  <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                  <a href="genres.html">By Genre</a>
+                  <a href="authors.html">By Author</a>
+                  <a href="recs.html">Editors' Picks</a>
+                  <a href="new.html">New Releases</a>
+              </div>
+          </div>
+          <a href="about_us.html">About Us</a>
+          <div class="search-container" ondrag="highlight">
+              <form method="post" target="_blank">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+          </div>
+          <div class="dropdown">
+              <button class="dropbtn" id="profilepic"><img src="def.jpg" id="profilepic">kbeka
+                  <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                  <a href="profile.html">Profile</a>
+                  <a href="tbr.html">My Books</a>
+                  <a href="login.html">Sign Out</a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="page_body">
+    <div class="body_left">
+      <img src="def.jpg" alt="Profile picture" width=30% class="prof_pic">
+      <div id="HASH">
+        <h2 class="serif">Cleopatra Beka</h2>
+        <a href="#" style="font-size:70%" class="serif"><i class="fas fa-pen"></i>Edit profile</a>
+      </div>
+      <hr>
+      <p style="font-size:130%" class="serif"><b>Username:</b> kbeka</p>
+      <p style="font-size:130%" class="serif"><b>Birthday:</b> 16 April</p>
+      <p style="font-size:130%" class="serif"><b>Details:</b> Age 23, Female, Volos</p>
+      <br><br>
+      <p style="font-size: 21px">Cleopatra's Bookcase</p>
+      <hr>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <a href="#" style="color:black"><p style="font-size:17px" class="serif"><b>Read-Books</b></a>: 100</p>
+            </div>
+            <center><img src="murder_of_roger_ackroyd.jpg"alt="Alkisti" height="200px"><center>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <a href="#" style="color:black"><p style="font-size:17px" class="serif"><b>Reading Now-Books</b></a>: 100</p>
+            </div>
+            <center><img src="silent_patient.jpg"alt="Alkisti" height="200px"><center>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <a href="#" style="color:black"><p style="font-size:17px" class="serif"><b>Want To Read-Books</b></a>: 100</p>
+            </div>
+            <center><img src="How_the_King_of_Elfhame_Learned_to_Hate_Stories.jpg"alt="Alkisti" height="200px"><center>
+          </div>
+        </div>
+      </div>
+      <br><br>
+        <p style="font-size:21px">Cleopatra's Quotes</p>
+        <hr>
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <ul>
+                <li class="serif"><b>“Wherever there is human nature, there is drama.”</b><br>― Agatha Christie, <a href="#">Hercule Poirot: The Complete Short Stories: A Hercule Poirot Collection with Foreword by Charles Todd</a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <ul>
+                <li class="serif"><b>“I stepped into the bookshop and breathed in that perfume of paper and magic that strangely no one had ever thought of bottling.”</b><br>― Carlos Ruiz Zafón, <a href="#">The Angel's Game</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="body_right">
+      <div class="right_rows">
+        <center><h2 class="serif"><u>Top Rated Books</u></h2>
+        <div class="top_rated">
+            <div class="books">
+              <a href="#"><img src="harry_potter_5.jpg" width="80px"></a>
+            </div>
+            <div class="information">
+              <a href="#" style="color:black"><p style="font-size:20px"><b>Harry Potter and the<br> Order of the Phoenix</b></p></a>
+              <p style="font-size:15px">by J.K. Rowling</p>
+              <p>Rate: 4.9/5<i style="color:#ffcc00 " class="fas fa-star"></i></p>
+            </div>
+        </div>
+        <div class="top_rated">
+            <div class="books">
+              <a href="#"><img src="murder_of_roger_ackroyd.jpg" width="80px"></a>
+            </div>
+            <div class="information">
+              <a href="#" style="color:black"><p style="font-size:20px"><b>The Murder of Roger Ackroyd</b></p></a>
+              <p style="font-size:15px">by Agatha Christie</p>
+              <p>Rate: 4.5/5<i style="color:#ffcc00 " class="fas fa-star"></i></p>
+            </div>
+        </div>
+        <div class="top_rated">
+            <div class="books">
+              <a href="#"><img src="a_promise_land.jpg" width="80px"></a>
+            </div>
+            <div class="information">
+              <a href="#" style="color:black"><p style="font-size:20px"><b>A Promise Land</b></p></a>
+              <p style="font-size:15px">by Barack Obama</p>
+              <p>Rate: 5/5<i style="color:#ffcc00 " class="fas fa-star"></i></p>
+            </div>
+        </div>
+      </div>
+      <hr>
+      <center><h2 class="serif"><u>Favorite authors</u></h2>
+        <div class="Suggestions">
+          <div class="right_row">
+              <button class="Suggestion-button">
+                <div class="Suggestion-image" id="round">
+                  <img src="jkr.jpg">
+                </div>
+                <p>J.K. Rowling</p>
+              </button>
+              <button class="Suggestion-button">
+                <div class="Suggestion-image" id="round">
+                  <img src="sjm.jpg">
+                </div>
+                <p>Sarah J. Maas</p>
+              </button>
+        </div>
+        <div class="right_row">
+            <button class="Suggestion-button">
+              <div class="Suggestion-image" id="round">
+                <img src="db.jpg">
+              </div>
+              <p>Dan Brown</p>
+            </button>
+            <button class="Suggestion-button" border-radius="50px">
+              <div class="Suggestion-image" id="round">
+                  <img src="ac.jpg">
+              </div>
+              <p>Agatha Christie</p>
+            </button>
+        </div>
+        </div>
+    </div>
+  </div>
+  </body>

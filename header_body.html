@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BookWay | rando</title>
+        <meta charset ="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="header_style.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <img src="book.png" class="book-image" width="40">
+            <a href="home_page.html" class="logo">Bookway</a>
+            <div class="header-right">
+                <a class="active" href="home_page.html">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Genres
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="genre">
+                        <a href="#adventure">Adventure</a>
+                        <a href="#classics">Classics</a>
+                        <a href="#comics">Comics</a>
+                        <a href="#crime">Crime</a>
+                        <a href="#fantasy">Fantasy</a>
+                        <a href="#fiction">Fiction</a>
+                        <a href="#manga">Manga</a>
+                        <a href="#mystery">Mystery</a>
+                        <a href="#thriller">Thriller</a>
+                        <a href="#ya">Young Adult</a>
+                        <a href="genre.html">More...</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Explore
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="genres.html">By Genre</a>
+                        <a href="authors.html">By Author</a>
+                        <a href="recs.html">Editors' Picks</a>
+                        <a href="new.html">New Releases</a>
+                    </div>
+                </div>
+                <a href="about_us.html">About Us</a>
+                <div class="search-container" ondrag="highlight">
+                    <form method="post" target="_blank">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn" id="profilepic"><img src="def.jpg" id="profilepic">kbeka
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="profile.html">Profile</a>
+                        <a href="tbr.html">My Books</a>
+                        <a href="login.html">Sign Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
